@@ -1,0 +1,259 @@
+Repeated-noise statistics (50 independent realisations per setting)
+Paired design: all methods see the same noise draw in every trial.
+
+--- Table 1: synthetic signals (mean SNR +/- SD, dB) ---
+Blocks     sigma=0.1
+    Hard          34.91 +/-  0.39
+    Soft          27.34 +/-  0.32
+    Firm          33.67 +/-  0.36
+    BayesShrink   32.56 +/-  0.20
+    BiShrink      35.04 +/-  0.29
+    Prop.-Fixed   33.02 +/-  0.34
+    Prop.-SURE    34.52 +/-  1.53
+    Prop.-LA      36.45 +/-  0.31
+    Prop.-LA-R    36.35 +/-  0.33
+Blocks     sigma=0.3
+    Hard          25.05 +/-  0.43
+    Soft          19.50 +/-  0.25
+    Firm          23.61 +/-  0.37
+    BayesShrink   25.58 +/-  0.30
+    BiShrink      25.99 +/-  0.28
+    Prop.-Fixed   24.11 +/-  0.40
+    Prop.-SURE    23.17 +/-  2.51
+    Prop.-LA      27.29 +/-  0.29
+    Prop.-LA-R    26.79 +/-  0.46
+Blocks     sigma=0.5
+    Hard          20.74 +/-  0.27
+    Soft          16.22 +/-  0.26
+    Firm          19.42 +/-  0.28
+    BayesShrink   22.27 +/-  0.24
+    BiShrink      21.96 +/-  0.31
+    Prop.-Fixed   20.16 +/-  0.27
+    Prop.-SURE    18.59 +/-  2.21
+    Prop.-LA      22.84 +/-  0.30
+    Prop.-LA-R    22.09 +/-  0.56
+Blocks     sigma=0.7
+    Hard          18.28 +/-  0.34
+    Soft          14.36 +/-  0.22
+    Firm          17.06 +/-  0.27
+    BayesShrink   19.94 +/-  0.33
+    BiShrink      19.36 +/-  0.29
+    Prop.-Fixed   17.91 +/-  0.29
+    Prop.-SURE    16.08 +/-  1.86
+    Prop.-LA      20.22 +/-  0.39
+    Prop.-LA-R    19.35 +/-  0.61
+Bumps      sigma=0.1
+    Hard          20.67 +/-  0.30
+    Soft          14.81 +/-  0.21
+    Firm          19.23 +/-  0.28
+    BayesShrink   21.01 +/-  0.24
+    BiShrink      21.04 +/-  0.26
+    Prop.-Fixed   18.64 +/-  0.24
+    Prop.-SURE    20.44 +/-  0.40
+    Prop.-LA      22.41 +/-  0.29
+    Prop.-LA-R    22.09 +/-  0.39
+Bumps      sigma=0.3
+    Hard          11.85 +/-  0.36
+    Soft           8.03 +/-  0.28
+    Firm          10.53 +/-  0.36
+    BayesShrink   13.70 +/-  0.25
+    BiShrink      12.43 +/-  0.32
+    Prop.-Fixed   11.00 +/-  0.35
+    Prop.-SURE    10.26 +/-  1.91
+    Prop.-LA      13.86 +/-  0.30
+    Prop.-LA-R    13.22 +/-  0.53
+Bumps      sigma=0.5
+    Hard           7.94 +/-  0.39
+    Soft           5.57 +/-  0.25
+    Firm           7.04 +/-  0.34
+    BayesShrink   10.78 +/-  0.36
+    BiShrink       8.71 +/-  0.41
+    Prop.-Fixed    7.55 +/-  0.37
+    Prop.-SURE     6.90 +/-  1.18
+    Prop.-LA      10.19 +/-  0.48
+    Prop.-LA-R     9.76 +/-  0.61
+Bumps      sigma=0.7
+    Hard           6.00 +/-  0.33
+    Soft           4.33 +/-  0.23
+    Firm           5.46 +/-  0.29
+    BayesShrink    8.72 +/-  0.37
+    BiShrink       6.27 +/-  0.50
+    Prop.-Fixed    5.87 +/-  0.31
+    Prop.-SURE     5.14 +/-  0.91
+    Prop.-LA       7.44 +/-  0.53
+    Prop.-LA-R     7.37 +/-  0.59
+Doppler    sigma=0.1
+    Hard          18.54 +/-  0.46
+    Soft          15.06 +/-  0.38
+    Firm          17.76 +/-  0.47
+    BayesShrink   19.54 +/-  0.47
+    BiShrink      17.16 +/-  0.59
+    Prop.-Fixed   17.34 +/-  0.45
+    Prop.-SURE    18.54 +/-  0.46
+    Prop.-LA      19.85 +/-  0.66
+    Prop.-LA-R    19.52 +/-  0.84
+Doppler    sigma=0.3
+    Hard          11.78 +/-  0.73
+    Soft           9.33 +/-  0.47
+    Firm          10.99 +/-  0.67
+    BayesShrink   12.96 +/-  0.66
+    BiShrink       8.16 +/-  0.71
+    Prop.-Fixed   11.28 +/-  0.67
+    Prop.-SURE    10.82 +/-  1.00
+    Prop.-LA      11.64 +/-  0.98
+    Prop.-LA-R    12.02 +/-  0.94
+Doppler    sigma=0.5
+    Hard           8.53 +/-  0.77
+    Soft           7.10 +/-  0.48
+    Firm           7.83 +/-  0.69
+    BayesShrink    9.82 +/-  0.72
+    BiShrink       4.08 +/-  0.69
+    Prop.-Fixed    8.31 +/-  0.68
+    Prop.-SURE     8.17 +/-  0.69
+    Prop.-LA       7.45 +/-  1.09
+    Prop.-LA-R     8.44 +/-  1.35
+Doppler    sigma=0.7
+    Hard           6.08 +/-  0.80
+    Soft           5.85 +/-  0.45
+    Firm           6.04 +/-  0.59
+    BayesShrink    7.61 +/-  0.71
+    BiShrink       1.23 +/-  0.67
+    Prop.-Fixed    6.19 +/-  0.68
+    Prop.-SURE     6.15 +/-  0.64
+    Prop.-LA       4.15 +/-  1.12
+    Prop.-LA-R     6.27 +/-  1.63
+HeaviSine  sigma=0.1
+    Hard          37.83 +/-  0.46
+    Soft          32.68 +/-  0.31
+    Firm          36.34 +/-  0.44
+    BayesShrink   37.13 +/-  0.35
+    BiShrink      36.51 +/-  0.42
+    Prop.-Fixed   35.79 +/-  0.39
+    Prop.-SURE    37.55 +/-  0.48
+    Prop.-LA      39.06 +/-  0.52
+    Prop.-LA-R    38.64 +/-  0.74
+HeaviSine  sigma=0.3
+    Hard          29.59 +/-  0.53
+    Soft          26.43 +/-  0.41
+    Firm          28.61 +/-  0.49
+    BayesShrink   30.69 +/-  0.41
+    BiShrink      27.68 +/-  0.60
+    Prop.-Fixed   28.98 +/-  0.50
+    Prop.-SURE    28.28 +/-  1.69
+    Prop.-LA      30.46 +/-  0.64
+    Prop.-LA-R    29.49 +/-  0.94
+HeaviSine  sigma=0.5
+    Hard          26.10 +/-  0.57
+    Soft          24.03 +/-  0.32
+    Firm          25.24 +/-  0.46
+    BayesShrink   27.82 +/-  0.48
+    BiShrink      23.63 +/-  0.57
+    Prop.-Fixed   25.79 +/-  0.48
+    Prop.-SURE    25.20 +/-  1.23
+    Prop.-LA      26.55 +/-  0.86
+    Prop.-LA-R    26.53 +/-  0.81
+HeaviSine  sigma=0.7
+    Hard          23.89 +/-  0.69
+    Soft          22.69 +/-  0.34
+    Firm          23.20 +/-  0.51
+    BayesShrink   26.34 +/-  0.59
+    BiShrink      21.22 +/-  0.65
+    Prop.-Fixed   23.70 +/-  0.64
+    Prop.-SURE    23.30 +/-  0.71
+    Prop.-LA      23.94 +/-  0.88
+    Prop.-LA-R    25.25 +/-  1.03
+
+  LaTeX rows:
+    Blocks & 0.1 & 34.91 & 27.34 & 33.67 & 32.56 & 35.04 & 33.02 & 34.52 & 36.45 & 36.35 \\
+    Blocks & 0.3 & 25.05 & 19.50 & 23.61 & 25.58 & 25.99 & 24.11 & 23.17 & 27.29 & 26.79 \\
+    Blocks & 0.5 & 20.74 & 16.22 & 19.42 & 22.27 & 21.96 & 20.16 & 18.59 & 22.84 & 22.09 \\
+    Blocks & 0.7 & 18.28 & 14.36 & 17.06 & 19.94 & 19.36 & 17.91 & 16.08 & 20.22 & 19.35 \\
+    Bumps & 0.1 & 20.67 & 14.81 & 19.23 & 21.01 & 21.04 & 18.64 & 20.44 & 22.41 & 22.09 \\
+    Bumps & 0.3 & 11.85 & 8.03 & 10.53 & 13.70 & 12.43 & 11.00 & 10.26 & 13.86 & 13.22 \\
+    Bumps & 0.5 & 7.94 & 5.57 & 7.04 & 10.78 & 8.71 & 7.55 & 6.90 & 10.19 & 9.76 \\
+    Bumps & 0.7 & 6.00 & 4.33 & 5.46 & 8.72 & 6.27 & 5.87 & 5.14 & 7.44 & 7.37 \\
+    Doppler & 0.1 & 18.54 & 15.06 & 17.76 & 19.54 & 17.16 & 17.34 & 18.54 & 19.85 & 19.52 \\
+    Doppler & 0.3 & 11.78 & 9.33 & 10.99 & 12.96 & 8.16 & 11.28 & 10.82 & 11.64 & 12.02 \\
+    Doppler & 0.5 & 8.53 & 7.10 & 7.83 & 9.82 & 4.08 & 8.31 & 8.17 & 7.45 & 8.44 \\
+    Doppler & 0.7 & 6.08 & 5.85 & 6.04 & 7.61 & 1.23 & 6.19 & 6.15 & 4.15 & 6.27 \\
+    HeaviSine & 0.1 & 37.83 & 32.68 & 36.34 & 37.13 & 36.51 & 35.79 & 37.55 & 39.06 & 38.64 \\
+    HeaviSine & 0.3 & 29.59 & 26.43 & 28.61 & 30.69 & 27.68 & 28.98 & 28.28 & 30.46 & 29.49 \\
+    HeaviSine & 0.5 & 26.10 & 24.03 & 25.24 & 27.82 & 23.63 & 25.79 & 25.20 & 26.55 & 26.53 \\
+    HeaviSine & 0.7 & 23.89 & 22.69 & 23.20 & 26.34 & 21.22 & 23.70 & 23.30 & 23.94 & 25.25 \\
+  overall mean: Hard=19.24 Soft=15.83 Firm=18.25 BayesShrink=20.40 BiShrink=18.15 Prop.-Fixed=18.48 Prop.-SURE=18.32 Prop.-LA=20.24 Prop.-LA-R=20.20
+  per-scenario wins: {'Hard': 0, 'Soft': 0, 'Firm': 0, 'BayesShrink': 8, 'BiShrink': 0, 'Prop.-Fixed': 0, 'Prop.-SURE': 0, 'Prop.-LA': 8, 'Prop.-LA-R': 0}
+  paired Prop.-LA - Hard: mean 1.00 dB, Wilcoxon p=0.00762939453125
+  paired Prop.-LA - BayesShrink: mean -0.17 dB, Wilcoxon p=0.781951904296875
+
+--- Table 2: ringing energy and SNR on the step signal ---
+  LaTeX rows (oscillation energy):
+    0.05 & 16.66 & 10.61 & 15.87 & 16.52 & 17.01 & 13.79 & 16.48 & 16.06 & 16.90 \\
+    0.1 & 15.77 & 7.59 & 13.26 & 15.64 & 17.45 & 11.77 & 15.35 & 15.77 & 17.17 \\
+    0.15 & 14.75 & 6.01 & 11.76 & 14.95 & 18.39 & 10.55 & 14.07 & 15.99 & 17.81 \\
+    0.2 & 13.53 & 4.83 & 9.99 & 13.85 & 19.26 & 9.32 & 12.36 & 15.73 & 17.47 \\
+  mean energy: Hard=15.18 Soft=7.26 Firm=12.72 BayesShrink=15.24 BiShrink=18.03 Prop.-Fixed=11.36 Prop.-SURE=14.57 Prop.-LA=15.89 Prop.-LA-R=17.33
+  mean SNR:    Hard=9.82 Soft=7.00 Firm=8.94 BayesShrink=11.41 BiShrink=10.53 Prop.-Fixed=8.48 Prop.-SURE=9.75 Prop.-LA=11.57 Prop.-LA-R=11.08
+  vs Hard:     Hard=+0.0% Soft=+52.2% Firm=+16.2% BayesShrink=-0.4% BiShrink=-18.8% Prop.-Fixed=+25.2% Prop.-SURE=+4.0% Prop.-LA=-4.7% Prop.-LA-R=-14.2%
+
+--- Tables 3 and 4: MIT-BIH records 100 and 101 ---
+  ECG100 sigma=0.1
+    Hard         SNR   7.37 +/-  0.29   sens 1.00   RMSE      2.3 ms
+    Soft         SNR   4.01 +/-  0.21   sens 0.72   RMSE      2.0 ms
+    Firm         SNR   6.05 +/-  0.29   sens 1.00   RMSE      1.9 ms
+    BayesShrink  SNR   9.72 +/-  0.23   sens 1.00   RMSE      2.2 ms
+    BiShrink     SNR   8.07 +/-  0.29   sens 1.00   RMSE      2.0 ms
+    Prop.-Fixed  SNR   5.63 +/-  0.27   sens 1.00   RMSE      1.9 ms
+    Prop.-SURE   SNR   7.28 +/-  0.30   sens 1.00   RMSE      2.3 ms
+    Prop.-LA     SNR  10.43 +/-  0.30   sens 1.00   RMSE      2.1 ms
+    Prop.-LA-R   SNR  10.25 +/-  0.32   sens 1.00   RMSE      2.3 ms
+  ECG100 sigma=0.3
+    Hard         SNR   0.72 +/-  0.23   sens 0.39   RMSE     23.6 ms
+    Soft         SNR   0.35 +/-  0.13   sens 0.02   RMSE      nan ms
+    Firm         SNR   0.52 +/-  0.18   sens 0.07   RMSE      nan ms
+    BayesShrink  SNR   2.87 +/-  0.30   sens 0.89   RMSE      3.5 ms
+    BiShrink     SNR   0.03 +/-  0.37   sens 0.98   RMSE     50.9 ms
+    Prop.-Fixed  SNR   0.60 +/-  0.20   sens 0.10   RMSE      nan ms
+    Prop.-SURE   SNR   0.74 +/-  0.23   sens 0.33   RMSE     19.5 ms
+    Prop.-LA     SNR   2.20 +/-  0.34   sens 0.95   RMSE     29.0 ms
+    Prop.-LA-R   SNR   1.61 +/-  0.62   sens 0.88   RMSE     13.4 ms
+  ECG100 sigma=0.5
+    Hard         SNR  -0.23 +/-  0.18   sens 0.15   RMSE      nan ms
+    Soft         SNR  -0.19 +/-  0.15   sens 0.02   RMSE      nan ms
+    Firm         SNR  -0.15 +/-  0.16   sens 0.04   RMSE      nan ms
+    BayesShrink  SNR   0.49 +/-  0.27   sens 0.32   RMSE      nan ms
+    BiShrink     SNR  -3.46 +/-  0.48   sens 0.98   RMSE    149.4 ms
+    Prop.-Fixed  SNR  -0.13 +/-  0.16   sens 0.06   RMSE      nan ms
+    Prop.-SURE   SNR  -0.15 +/-  0.16   sens 0.09   RMSE      nan ms
+    Prop.-LA     SNR  -1.08 +/-  0.51   sens 0.80   RMSE    150.6 ms
+    Prop.-LA-R   SNR  -0.71 +/-  0.71   sens 0.52   RMSE      nan ms
+  ECG101 sigma=0.1
+    Hard         SNR   7.20 +/-  0.35   sens 1.00   RMSE      1.6 ms
+    Soft         SNR   3.85 +/-  0.20   sens 0.42   RMSE      1.7 ms
+    Firm         SNR   5.75 +/-  0.30   sens 0.93   RMSE      1.6 ms
+    BayesShrink  SNR   9.87 +/-  0.23   sens 1.00   RMSE      1.2 ms
+    BiShrink     SNR   7.67 +/-  0.31   sens 1.00   RMSE      1.6 ms
+    Prop.-Fixed  SNR   5.34 +/-  0.27   sens 0.87   RMSE      1.6 ms
+    Prop.-SURE   SNR   7.08 +/-  0.36   sens 0.99   RMSE      1.6 ms
+    Prop.-LA     SNR  10.13 +/-  0.35   sens 1.00   RMSE      1.2 ms
+    Prop.-LA-R   SNR  10.01 +/-  0.31   sens 1.00   RMSE      1.3 ms
+  ECG101 sigma=0.3
+    Hard         SNR   0.67 +/-  0.18   sens 0.21   RMSE      nan ms
+    Soft         SNR   0.51 +/-  0.09   sens 0.00   RMSE      nan ms
+    Firm         SNR   0.61 +/-  0.13   sens 0.01   RMSE      nan ms
+    BayesShrink  SNR   2.99 +/-  0.33   sens 0.64   RMSE      2.9 ms
+    BiShrink     SNR  -0.36 +/-  0.39   sens 0.94   RMSE     79.1 ms
+    Prop.-Fixed  SNR   0.66 +/-  0.15   sens 0.02   RMSE      nan ms
+    Prop.-SURE   SNR   0.73 +/-  0.18   sens 0.13   RMSE      nan ms
+    Prop.-LA     SNR   2.11 +/-  0.41   sens 0.83   RMSE     44.0 ms
+    Prop.-LA-R   SNR   1.51 +/-  0.43   sens 0.66   RMSE      nan ms
+  ECG101 sigma=0.5
+    Hard         SNR  -0.18 +/-  0.22   sens 0.05   RMSE      nan ms
+    Soft         SNR  -0.04 +/-  0.15   sens 0.00   RMSE      nan ms
+    Firm         SNR  -0.04 +/-  0.15   sens 0.00   RMSE      nan ms
+    BayesShrink  SNR   0.50 +/-  0.28   sens 0.07   RMSE      nan ms
+    BiShrink     SNR  -3.90 +/-  0.41   sens 0.98   RMSE    156.5 ms
+    Prop.-Fixed  SNR  -0.04 +/-  0.16   sens 0.01   RMSE      nan ms
+    Prop.-SURE   SNR  -0.08 +/-  0.17   sens 0.03   RMSE      nan ms
+    Prop.-LA     SNR  -1.24 +/-  0.50   sens 0.73   RMSE    173.5 ms
+    Prop.-LA-R   SNR  -0.49 +/-  0.70   sens 0.19   RMSE      nan ms
+  overall mean SNR: Hard=2.59 Soft=1.41 Firm=2.12 BayesShrink=4.41 BiShrink=1.34 Prop.-Fixed=2.01 Prop.-SURE=2.60 Prop.-LA=3.76 Prop.-LA-R=3.70

@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite it as below and cite the paper it
+  accompanies.
+title: >-
+  SURE-guided level-adaptive wavelet denoising with exponentially decaying
+  shrinkage: reproduction code
+authors:
+  - family-names: Kang
+    given-names: Yun
+    affiliation: Hongshen College, Chongqing University
+  - family-names: Li
+    given-names: Mingyu
+    affiliation: School of Microelectronics and Communication Engineering,
+      Chongqing University
+version: 1.0.0
+date-released: 2026-09-28
+license: MIT
+repository-artifact: https://github.com/OWNER/REPOSITORY
+keywords:
+  - wavelet denoising
+  - Stein unbiased risk estimate
+  - threshold selection
+  - shrinkage
+  - ECG
