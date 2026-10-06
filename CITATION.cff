@@ -16,7 +16,7 @@ authors:
 version: 1.0.0
 date-released: 2026-09-28
 license: MIT
-repository-artifact: https://github.com/OWNER/REPOSITORY
+repository-artifact: https://github.com/kangyun070204/sure-level-adaptive-denoising
 keywords:
   - wavelet denoising
   - Stein unbiased risk estimate
